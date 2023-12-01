@@ -15,6 +15,8 @@ class ActivityNombre : AppCompatActivity() {
         val listadoAlumnos = mutableListOf<Alumnos>()
         val alumnos = Alumnos(nombre, 32, " "  )
         listadoAlumnos.add(alumnos)
+
+        // Evitar: YAGNI y SOBREINGENIERIA
         
 
     }
